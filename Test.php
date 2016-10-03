@@ -1,5 +1,5 @@
 <?php
-//use atoum;
+namespace jlttt\tests\units;
 
 class Test extends atoum
 {
