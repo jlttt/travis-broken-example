@@ -1,5 +1,6 @@
 <?php
 namespace jlttt\tests\units;
+use mageekguy\atoum;
 
 class Test extends atoum
 {
