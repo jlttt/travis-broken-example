@@ -5,8 +5,12 @@ require_once(dirname(dirname(__DIR__)) . '/src/Test.php');
 
 class Test extends atoum
 {
-/*	public function testOnePlusOne() {
-		$this->assertEquals(1+1,2);
-  	}*/
+	public function testOnePlusOne() {
+		$this
+            ->given($this->newTestedInstance)
+            ->then
+                    ->boolean($this->testedInstance->onePlusOne())
+                        ->isEqualTo(true);
+  	}
 }
 ?>
