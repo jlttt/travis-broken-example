@@ -1,7 +1,7 @@
 <?php
 namespace jlttt\tests\units;
 use mageekguy\atoum;
-require_once(dirname(dirname(__DIR__)) . '/src/Test.php');
+require_once(dirname(dirname(__DIR__)) . '/Test.php');
 
 class Test extends atoum
 {
