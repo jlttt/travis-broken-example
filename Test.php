@@ -1,5 +1,5 @@
 <?php
-use atoum;
+//use atoum;
 
 class Test extends atoum
 {
