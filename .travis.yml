@@ -1,5 +1,5 @@
 language: php
 php:
-  - 7.x
+  - 7.0.x
 before_script: composer require atoum/atoum
 script: vendor/bin/atoum Test.php
