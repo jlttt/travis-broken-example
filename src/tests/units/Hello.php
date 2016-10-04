@@ -1,9 +1,11 @@
 <?php
-namespace jlttt\tests\units;
-use mageekguy\atoum;
-require_once(dirname(dirname(__DIR__)) . '/Test.php');
+namespace Vendor\Project\tests\units;
 
-class Test extends atoum
+require_once(__DIR__ . '/../../../vendor/autoload.php');
+
+use atoum;
+
+class Hello extends atoum
 {
 	public function testOnePlusOne() {
 		$this
@@ -13,4 +15,3 @@ class Test extends atoum
                         ->isEqualTo(true);
   	}
 }
-?>

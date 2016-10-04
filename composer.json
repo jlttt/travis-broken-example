@@ -1,5 +1,10 @@
 {
     "require": {
         "atoum/atoum": "^2.8"
+    },
+    "autoload": {
+        "psr-4": {
+          "Vendor\\Project\\": "src/"
+        }
     }
 }

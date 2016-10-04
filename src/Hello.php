@@ -1,10 +1,9 @@
 <?php
-namespace jltt;
+namespace Vendor\Project;
 
-class Test
+class Hello
 {
 	public function onePlusOne() {
 		return true;
   	}
 }
-?>
