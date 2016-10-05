@@ -2,11 +2,9 @@
     "require": {
         "atoum/atoum": "^2.8"
     },
-    {
  "require-dev": {
    "codeclimate/php-test-reporter": "dev-master"
-  }
-},
+  },
     "autoload": {
         "psr-4": {
           "Vendor\\Project\\": "src/"
