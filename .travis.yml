@@ -4,7 +4,8 @@ addons:
 language: php
 php:
   - '7.0'
-before_script: composer install
+install:
+  - composer install
 script: 
  - ./vendor/bin/atoum -f src/tests/units/Hello.php
  - ./vendor/atoum/scripts/coverage.php -f my/test.php --output build/logs/clover.xml
